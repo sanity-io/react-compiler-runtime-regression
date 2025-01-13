@@ -1,0 +1,9 @@
+{
+    "scripts": {
+      "test": "node test.mjs && node test.cjs",
+      "test:workaround": "node workaround.mjs && node test.cjs"
+    },
+    "dependencies": {
+      "react-compiler-runtime": "npm:react-compiler-runtime@19.0.0-beta-e552027-20250112"
+    }
+  }
