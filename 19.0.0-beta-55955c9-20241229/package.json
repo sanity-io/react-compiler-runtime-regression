@@ -5,5 +5,9 @@
     },
     "dependencies": {
       "react-compiler-runtime": "npm:react-compiler-runtime@19.0.0-beta-55955c9-20241229"
-    }
+    },
+    "engines": {
+      "node": "20"
+    },
+    "engineStrict": true
   }
