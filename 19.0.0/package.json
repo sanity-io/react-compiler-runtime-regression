@@ -1,0 +1,13 @@
+{
+    "scripts": {
+      "test": "node test.mjs && node test.cjs",
+      "test:workaround": "node workaround.mjs && node test.cjs"
+    },
+    "dependencies": {
+      "react": "19.0.0"
+    },
+    "engines": {
+      "node": "22"
+    },
+    "engineStrict": true
+  }
